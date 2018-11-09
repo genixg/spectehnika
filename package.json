@@ -67,8 +67,8 @@
     "leaflet": "^0.7.7",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
     "redux-localstorage-simple": "^2.1.4"
   },
   "eslintConfig": {
