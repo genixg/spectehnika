@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#root, #map, #mapUI {
+  width: inherit;
+  height: inherit;
+  background-color: #CACACA;
+}
+.filterSubwayLines {
+  position: absolute;
+  top: 10px;
+  z-index: 10;
+  width: 200px;
+  height: auto;
+  background: hsla(0,100%,100%,0.99);
+  margin: 120px 10px 10px 0;
+  font-family: sans-serif;
+  font-size: 13px;
+  padding: 5px;
+  padding-bottom: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.filterSubwayLines hr {
+  border: 1px solid #000;
+}
+.filterSubwayLines h3 {
+  font-size: 18pt;
+  margin-top: 0;
+  padding-left: 5px;
+}
+.filterSubwayLines p {
+  padding-left: 5px;
+}
+.filterSubwayLines select {
+  display: block;
+  margin: 5px auto 10px;
+  width:100%;
+}
+
+header {
+  height: 100px;
+  line-height: 100px;
+  width: 1024px;
+  margin: 0 auto;
+  position: absolute;
+  top:50;
+  left: 50%;
+  z-index: 20;
+}
+.insideheader {
+  background: #FFF;
+  position: relative;
+  left: -50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.logo {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.topnavigation {
+}
+.topnavigation a {
+  margin: 10px;
+}
+
+.topcontacts {
+}
+
+
+
+input.checkbox {
+  margin: 5px;
+}
+button.btn {
+  margin: 2px;
+  background: white;
+  border: 1px solid grey;
+}
+button.btn:hover {
+  background: #e8e8e8;
+}

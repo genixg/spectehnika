@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
+"features": [
+{ "type": "Feature", "properties": { "TYPE":"Автокран", "NAME": "Галичанин 25 тн стрела 22м", "IMG": "kran.jpg", "COLOR": "green", "CAPACITY": "25 т", "PHONE": "+79058454854" }, "geometry": { "type": "Point", "coordinates": [ 45.9641, 51.5243] } },
+{ "type": "Feature", "properties": { "TYPE":"Манипулятор", "NAME": "Манипулятор 15 т", "IMG": "manipulyator15.jpg", "COLOR": "red", "CAPACITY": "15 т", "PHONE": "+79048454854" }, "geometry": { "type": "Point", "coordinates": [ 46.0434, 51.534] } },
+{ "type": "Feature", "properties": { "TYPE":"Автокран", "NAME": "Галичанин 32 тн стрела 31м", "IMG": "kran32.jpg", "COLOR": "yellow", "CAPACITY": "32 т", "PHONE": "+79028454854" }, "geometry": { "type": "Point", "coordinates": [ 46.0231, 51.5594] } },
+{ "type": "Feature", "properties": { "TYPE":"Автокран", "NAME": "Галичанин 32 тн стрела 31м+9м", "IMG": "kran32.jpg", "COLOR": "green", "CAPACITY": "32 т", "PHONE": "+79078454854" }, "geometry": { "type": "Point", "coordinates": [ 46.0928, 51.4978] } },
+{ "type": "Feature", "properties": { "TYPE":"Автокран", "NAME": "Клинцы 40 тн стрела 34м+9м", "IMG": "kran40.jpg", "COLOR": "green", "CAPACITY": "40 т", "PHONE": "+79278454854" }, "geometry": { "type": "Point", "coordinates": [ 46.0691, 51.5465] } }
+]
+} 
